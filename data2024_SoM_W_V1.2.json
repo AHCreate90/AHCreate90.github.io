@@ -1,11 +1,11 @@
 {
   "config": {
     "trackHighestDivision": true,
-    "contentVersion": "shadow-of-mordor-custom-2026-10-10-v41"
+    "contentVersion": "shadow-of-mordor-custom-2026-10-11-ghul-matron-general"
   },
   "appVersion": 2,
   "update": {
-    "contentVersion": "shadow-of-mordor-custom-2026-10-10-v41"
+    "contentVersion": "shadow-of-mordor-custom-2026-10-11-ghul-matron-general"
   },
   "disallowMultipleFactions": true,
   "colors": {
@@ -4535,6 +4535,67 @@
         ]
       },
       {
+        "name": "Ghûl Matron​",
+        "factions": [
+          {
+            "name": "Lairs of Mordor",
+            "heroicTier": "Hero of Valour"
+          }
+        ],
+        "points": 80,
+        "movement": 6,
+        "fight": 4,
+        "shoot": 5,
+        "strength": 5,
+        "defence": 5,
+        "attack": 3,
+        "wounds": 4,
+        "courage": 5,
+        "intelligence": 5,
+        "might": 1,
+        "will": 3,
+        "fate": 0,
+        "race": [
+          "Ghûl"
+        ],
+        "faction": [
+          "Mordor"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry",
+          "Unique"
+        ],
+        "baseSize": [
+          "40mm"
+        ],
+        "heroicActions": [
+          "Heroic Strength"
+        ],
+        "specialRules": [
+          "Cave Dweller",
+          "Pack Hunter",
+          "Pack Instinct",
+          "Terror",
+          "Swarm Leader",
+          "Harbinger of Evil (6\")",
+          "General Hunter"
+        ],
+        "wargear": [
+          "Teeth and Claws (hand weapons)"
+        ],
+        "options": [
+          {
+            "name": "Virulent Spit",
+            "points": 10
+          }
+        ],
+        "title": "General",
+        "unavailableWith": [
+          "The White Graug"
+        ]
+      },
+      {
         "name": "Gollum",
         "factions": [
           {
@@ -5561,7 +5622,10 @@
         "wargear": [
           "Massive Claws (hand weapons)"
         ],
-        "options": []
+        "options": [],
+        "unavailableWith": [
+          "Ghûl Matron​"
+        ]
       },
       {
         "name": "Tribesman Warden",
