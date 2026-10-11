@@ -3823,7 +3823,7 @@
         "requireOne": [
           [
             "The White Graug",
-            "Ghûl Matron"
+            "Ghûl Matron​"
           ]
         ]
       },
@@ -4563,8 +4563,7 @@
         ],
         "unitType": [
           "Hero",
-          "Infantry",
-          "Unique"
+          "Infantry"
         ],
         "baseSize": [
           "40mm"
